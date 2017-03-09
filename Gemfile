@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-ruby '2.2.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
@@ -33,6 +32,7 @@ gem 'httparty'
 gem 'dalli'
 gem 'memcachier'
 # New Relic
+gem 'newrelic_rpm'
 
 # Fast production server
 gem 'puma'
